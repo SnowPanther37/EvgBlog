@@ -2072,6 +2072,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"bootstrap@npm:^5.0.1":
+  version: 5.0.1
+  resolution: "bootstrap@npm:5.0.1"
+  peerDependencies:
+    "@popperjs/core": ^2.9.2
+  checksum: 1f042df235164c950f3753853879d9603d5c84b0bfd92e30eae44afab1f06ae5a02dcf2fe38245feccf9b248630bfcd7afbadd495a7d64229ad3c70d8154d82f
+  languageName: node
+  linkType: hard
+
 "brace-expansion@npm:^1.1.7":
   version: 1.1.11
   resolution: "brace-expansion@npm:1.1.11"
@@ -5106,6 +5115,13 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"jquery@npm:^3.6.0":
+  version: 3.6.0
+  resolution: "jquery@npm:3.6.0"
+  checksum: a0a819022a1bdff5efa79bbd9d4d7352de5bd32dabe42108e6ec0797238dba36c09c108e0eea2724f5d03acc1b30ee87d76bec80e15b9510106532292ebe6ba4
+  languageName: node
+  linkType: hard
+
 "js-tokens@npm:^4.0.0":
   version: 4.0.0
   resolution: "js-tokens@npm:4.0.0"
@@ -6478,6 +6494,13 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"popper.js@npm:^1.16.1":
+  version: 1.16.1
+  resolution: "popper.js@npm:1.16.1"
+  checksum: eb53806fb7680e31c7d1db096f95438a40a7cb869f7ee0e27100c0860f11583a0d322606c6073618e7fe8865f834ec36482901b547256d9a0cf2b22434bca75d
+  languageName: node
+  linkType: hard
+
 "portfinder@npm:^1.0.26":
   version: 1.0.28
   resolution: "portfinder@npm:1.0.28"
@@ -7291,6 +7314,9 @@ fsevents@~2.3.1:
     "@rails/activestorage": ^6.0.0
     "@rails/ujs": ^6.0.0
     "@rails/webpacker": 5.4.0
+    bootstrap: ^5.0.1
+    jquery: ^3.6.0
+    popper.js: ^1.16.1
     turbolinks: ^5.2.0
     webpack: 4.46.0
     webpack-cli: 3.3.12

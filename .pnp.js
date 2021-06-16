@@ -41,6 +41,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rails/activestorage", "npm:6.1.3"],
             ["@rails/ujs", "npm:6.1.3"],
             ["@rails/webpacker", "npm:5.4.0"],
+            ["bootstrap", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.0.1"],
+            ["jquery", "npm:3.6.0"],
+            ["popper.js", "npm:1.16.1"],
             ["turbolinks", "npm:5.2.0"],
             ["webpack", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:4.46.0"],
             ["webpack-cli", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:3.3.12"],
@@ -3162,6 +3165,28 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/boolbase-npm-1.0.0-965fe9af6d-e827963c41.zip/node_modules/boolbase/",
           "packageDependencies": [
             ["boolbase", "npm:1.0.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["bootstrap", [
+        ["npm:5.0.1", {
+          "packageLocation": "./.yarn/cache/bootstrap-npm-5.0.1-f273fde9dd-1f042df235.zip/node_modules/bootstrap/",
+          "packageDependencies": [
+            ["bootstrap", "npm:5.0.1"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.0.1", {
+          "packageLocation": "./.yarn/$$virtual/bootstrap-virtual-463b6b0436/0/cache/bootstrap-npm-5.0.1-f273fde9dd-1f042df235.zip/node_modules/bootstrap/",
+          "packageDependencies": [
+            ["bootstrap", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.0.1"],
+            ["@popperjs/core", null],
+            ["@types/popperjs__core", null]
+          ],
+          "packagePeers": [
+            "@popperjs/core",
+            "@types/popperjs__core"
           ],
           "linkType": "HARD",
         }]
@@ -6615,6 +6640,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["jquery", [
+        ["npm:3.6.0", {
+          "packageLocation": "./.yarn/cache/jquery-npm-3.6.0-ca7872bdbb-a0a819022a.zip/node_modules/jquery/",
+          "packageDependencies": [
+            ["jquery", "npm:3.6.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["js-tokens", [
         ["npm:4.0.0", {
           "packageLocation": "./.yarn/cache/js-tokens-npm-4.0.0-0ac852e9e2-1fc4e4667a.zip/node_modules/js-tokens/",
@@ -8158,6 +8192,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["popper.js", [
+        ["npm:1.16.1", {
+          "packageLocation": "./.yarn/cache/popper.js-npm-1.16.1-a99192bd83-eb53806fb7.zip/node_modules/popper.js/",
+          "packageDependencies": [
+            ["popper.js", "npm:1.16.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["portfinder", [
         ["npm:1.0.28", {
           "packageLocation": "./.yarn/cache/portfinder-npm-1.0.28-12c37407ab-906dc51482.zip/node_modules/portfinder/",
@@ -9044,6 +9087,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rails/activestorage", "npm:6.1.3"],
             ["@rails/ujs", "npm:6.1.3"],
             ["@rails/webpacker", "npm:5.4.0"],
+            ["bootstrap", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.0.1"],
+            ["jquery", "npm:3.6.0"],
+            ["popper.js", "npm:1.16.1"],
             ["turbolinks", "npm:5.2.0"],
             ["webpack", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:4.46.0"],
             ["webpack-cli", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:3.3.12"],

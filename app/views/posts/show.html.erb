@@ -1,8 +1,20 @@
+<style>
+.reda{
+  display:inline-block;
+  margin-right: 10px;
+}
+.buten{
+  display:inline-block;
+}
+</style>
 <h1><%= @post.title %></h1>
 <p><%= @post.body %></p>
-<hr>
+<div class = "reda">
 <%= link_to "Редактировать", edit_post_path(@post), :class => 'btn btn-warning' %>
-<%= link_to "Удалить", post_path(@post), method: :delete, data: { confirm: "Удалить пост?" }, :class =>  'btn btn-danger' %>
+</div>
+<div class = "buten">
+<%= button_to "Удалить", post_path(@post), method: :delete, data: { confirm: "Удалить пост?" }, :class =>  'btn btn-danger' %>
+</div>
 <hr>
 <h1>Все комментарии</h1>
 <% @post.comments.each do |comment| %>
