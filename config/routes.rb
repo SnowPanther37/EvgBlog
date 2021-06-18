@@ -1,8 +1,6 @@
 Rails.application.routes.draw do
-    get 'pages/posts'
-    get 'pages/about'
 root 'posts#index', as: 'home'
-
+get 'signup'  => 'users#new'
 get 'about' => 'pages#about', as: 'about'
 
 resources :posts do

@@ -45,20 +45,32 @@
     <nav class="container d-flex flex-column flex-md-row justify-content-between">
     <span class="py-2 d-none d-md-inline-block" ><%= link_to "Главная страница",
     home_path %></span>
-    <span class="py-2 d-none d-md-inline-block" ><%= link_to "Про нас",
-    about_path %></span>
     <span class="py-2 d-none d-md-inline-block" ><%= link_to 'Добавление статьи',
     new_post_path %></span>
     <span class="py-2 d-none d-md-inline-block" ><%= link_to 'Log in',
-    new_post_path %></span>
+    signup_path %></span>
     <span class="py-2 d-none d-md-inline-block" ><%= link_to 'Sign up',
-    new_post_path %></span>
+    signup_path %></span>
   </nav>
   </div>
 
 </header>
+
   <div class = "container">
    <%= yield %>
+   <footer class="footer">
+  <small>
+    The <a>EvgBlog</a>
+    by <a href="https://vk.com/sniowpanther">Evgeny Somov</a>
+  </small>
+  <nav>
+    <ul>
+      <li><%= link_to "Про нас",   about_path %></li>
+      <li><%= link_to "Contact", '#' %></li>
+      <li><a href="https://github.com/SnowPanther37/pr">Git</a></li>
+    </ul>
+  </nav>
+</footer>
   </div>
   </body>
 </html>
