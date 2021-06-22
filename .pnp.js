@@ -43,7 +43,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rails/webpacker", "npm:5.4.0"],
             ["babel", "npm:5.8.38"],
             ["babel-core", "npm:5.8.38"],
-            ["babel-loader", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.4.2"],
+            ["babel-loader", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:8.2.2"],
             ["bootstrap", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.0.1"],
             ["jquery", "npm:3.6.0"],
             ["popper.js", "npm:1.16.1"],
@@ -3351,13 +3351,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["babel-loader", [
-        ["npm:5.4.2", {
-          "packageLocation": "./.yarn/cache/babel-loader-npm-5.4.2-f7ac212a0b-24c4e06786.zip/node_modules/babel-loader/",
-          "packageDependencies": [
-            ["babel-loader", "npm:5.4.2"]
-          ],
-          "linkType": "SOFT",
-        }],
         ["npm:8.2.2", {
           "packageLocation": "./.yarn/cache/babel-loader-npm-8.2.2-b4e600c2c5-362bb71573.zip/node_modules/babel-loader/",
           "packageDependencies": [
@@ -3386,21 +3379,23 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.4.2", {
-          "packageLocation": "./.yarn/$$virtual/babel-loader-virtual-99303a1e8a/0/cache/babel-loader-npm-5.4.2-f7ac212a0b-24c4e06786.zip/node_modules/babel-loader/",
+        ["virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:8.2.2", {
+          "packageLocation": "./.yarn/$$virtual/babel-loader-virtual-82a7eeb000/0/cache/babel-loader-npm-8.2.2-b4e600c2c5-362bb71573.zip/node_modules/babel-loader/",
           "packageDependencies": [
-            ["babel-loader", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.4.2"],
-            ["@types/babel-core", null],
+            ["babel-loader", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:8.2.2"],
+            ["@babel/core", null],
+            ["@types/babel__core", null],
             ["@types/webpack", null],
-            ["babel-core", "npm:5.8.38"],
-            ["loader-utils", "npm:0.2.17"],
-            ["object-assign", "npm:3.0.0"],
+            ["find-cache-dir", "npm:3.3.1"],
+            ["loader-utils", "npm:1.4.0"],
+            ["make-dir", "npm:3.1.0"],
+            ["schema-utils", "npm:2.7.1"],
             ["webpack", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.40.0"]
           ],
           "packagePeers": [
-            "@types/babel-core",
+            "@babel/core",
+            "@types/babel__core",
             "@types/webpack",
-            "babel-core",
             "webpack"
           ],
           "linkType": "HARD",
@@ -3690,13 +3685,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["big.js", [
-        ["npm:3.2.0", {
-          "packageLocation": "./.yarn/cache/big.js-npm-3.2.0-85bc444414-6f08a28dd4.zip/node_modules/big.js/",
-          "packageDependencies": [
-            ["big.js", "npm:3.2.0"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:5.2.2", {
           "packageLocation": "./.yarn/cache/big.js-npm-5.2.2-e147c30820-ea33d7d256.zip/node_modules/big.js/",
           "packageDependencies": [
@@ -5559,13 +5547,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["emojis-list", [
-        ["npm:2.1.0", {
-          "packageLocation": "./.yarn/cache/emojis-list-npm-2.1.0-e19a336e35-09220b636c.zip/node_modules/emojis-list/",
-          "packageDependencies": [
-            ["emojis-list", "npm:2.1.0"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:3.0.0", {
           "packageLocation": "./.yarn/cache/emojis-list-npm-3.0.0-7faa48e6fd-a79126b55b.zip/node_modules/emojis-list/",
           "packageDependencies": [
@@ -7931,13 +7912,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "HARD",
         }],
-        ["npm:0.5.1", {
-          "packageLocation": "./.yarn/cache/json5-npm-0.5.1-dad9a6cdb1-002ce9e56c.zip/node_modules/json5/",
-          "packageDependencies": [
-            ["json5", "npm:0.5.1"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:1.0.1", {
           "packageLocation": "./.yarn/cache/json5-npm-1.0.1-647fc8794b-df41624f9f.zip/node_modules/json5/",
           "packageDependencies": [
@@ -8070,17 +8044,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["loader-utils", [
-        ["npm:0.2.17", {
-          "packageLocation": "./.yarn/cache/loader-utils-npm-0.2.17-1fe62fab05-aae13ef9f1.zip/node_modules/loader-utils/",
-          "packageDependencies": [
-            ["loader-utils", "npm:0.2.17"],
-            ["big.js", "npm:3.2.0"],
-            ["emojis-list", "npm:2.1.0"],
-            ["json5", "npm:0.5.1"],
-            ["object-assign", "npm:4.1.1"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:1.4.0", {
           "packageLocation": "./.yarn/cache/loader-utils-npm-1.4.0-a56254a277-9fd690e57a.zip/node_modules/loader-utils/",
           "packageDependencies": [
@@ -8969,13 +8932,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["object-assign", [
-        ["npm:3.0.0", {
-          "packageLocation": "./.yarn/cache/object-assign-npm-3.0.0-8d79858461-e3e258e571.zip/node_modules/object-assign/",
-          "packageDependencies": [
-            ["object-assign", "npm:3.0.0"]
-          ],
-          "linkType": "HARD",
-        }],
         ["npm:4.1.1", {
           "packageLocation": "./.yarn/cache/object-assign-npm-4.1.1-1004ad6dec-66cf021898.zip/node_modules/object-assign/",
           "packageDependencies": [
@@ -10507,7 +10463,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@rails/webpacker", "npm:5.4.0"],
             ["babel", "npm:5.8.38"],
             ["babel-core", "npm:5.8.38"],
-            ["babel-loader", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.4.2"],
+            ["babel-loader", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:8.2.2"],
             ["bootstrap", "virtual:94f2656c45093d003323e34b820d35ea95159ce6b2597971584b6296f5eb6aeccb9163cb21c5d29fbef5330a7076dddf1efd75b2534f53f70fc0e55d0013a2be#npm:5.0.1"],
             ["jquery", "npm:3.6.0"],
             ["popper.js", "npm:1.16.1"],
