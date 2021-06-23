@@ -1110,6 +1110,11 @@
   dependencies:
     "@types/node" "*"
 
+"@types/lodash@^4.14.170":
+  "integrity" "sha512-bpcvu/MKHHeYX+qeEN8GE7DIravODWdACVA1ctevD8CN24RhPZIKMn9ntfAsrvLfSX3cR5RrBKAbYm9bGs0A+Q=="
+  "resolved" "https://registry.npmjs.org/@types/lodash/-/lodash-4.14.170.tgz"
+  "version" "4.14.170"
+
 "@types/minimatch@*", "@types/minimatch@^3.0.3":
   "integrity" "sha512-1z8k4wzFnNjVK/tlxvrWuK5WMt6mydWWP7+zvH5eFep4oj+UkrfiJTRtjCeBXNpwaA/FYqqtb4/QS4ianFpIRA=="
   "resolved" "https://registry.npmjs.org/@types/minimatch/-/minimatch-3.0.4.tgz"
@@ -10539,7 +10544,7 @@
     "v8-compile-cache" "^2.1.1"
     "yargs" "^13.3.2"
 
-"webpack-cli@4.7.2", "webpack-cli@4.x.x":
+"webpack-cli@^4.7.2", "webpack-cli@4.x.x":
   "integrity" "sha512-mEoLmnmOIZQNiRl0ebnjzQ74Hk0iKS5SiEEnpq3dRezoyR3yPaeQZCMCe+db4524pj1Pd5ghZXjT41KLzIhSLw=="
   "resolved" "https://registry.npmjs.org/webpack-cli/-/webpack-cli-4.7.2.tgz"
   "version" "4.7.2"
