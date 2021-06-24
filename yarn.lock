@@ -21,7 +21,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:7.14.6, @babel/core@npm:^7.1.6, @babel/core@npm:^7.14.3, @babel/core@npm:^7.14.5":
+"@babel/core@npm:7.14.6, @babel/core@npm:^7.1.6, @babel/core@npm:^7.14.3, @babel/core@npm:^7.14.5, @babel/core@npm:^7.14.6":
   version: 7.14.6
   resolution: "@babel/core@npm:7.14.6"
   dependencies:
@@ -13074,6 +13074,7 @@ fsevents@~2.3.2:
   version: 0.0.0-use.local
   resolution: "pr@workspace:."
   dependencies:
+    "@babel/core": ^7.14.6
     "@popperjs/core": ^2.9.2
     "@rails/actioncable": ^6.0.4
     "@rails/activestorage": ^6.0.4
@@ -13100,10 +13101,10 @@ fsevents@~2.3.2:
     npm: ^7.18.1
     popper.js: ^1.16.1
     turbolinks: ^5.2.0
-    webpack: ^5.40.0
-    webpack-cli: ^4.7.2
+    webpack: 4.46.0
+    webpack-cli: 3.3.12
     webpack-dev-server: ^3.11.2
-    yarn: ^1.22.4
+    yarn: ^1.22.10
   languageName: unknown
   linkType: soft
 
@@ -16245,7 +16246,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"webpack-cli@npm:^3.3.12":
+"webpack-cli@npm:3.3.12, webpack-cli@npm:^3.3.12":
   version: 3.3.12
   resolution: "webpack-cli@npm:3.3.12"
   dependencies:
@@ -16473,7 +16474,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"webpack@npm:^4.46.0":
+"webpack@npm:4.46.0, webpack@npm:^4.46.0":
   version: 4.46.0
   resolution: "webpack@npm:4.46.0"
   dependencies:
@@ -16511,7 +16512,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.38.1, webpack@npm:^5.40.0":
+"webpack@npm:^5.38.1":
   version: 5.40.0
   resolution: "webpack@npm:5.40.0"
   dependencies:
@@ -16873,7 +16874,7 @@ fsevents@~2.3.2:
   languageName: node
   linkType: hard
 
-"yarn@npm:^1.22.4":
+"yarn@npm:^1.22.10":
   version: 1.22.10
   resolution: "yarn@npm:1.22.10"
   bin:
