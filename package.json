@@ -2,6 +2,7 @@
   "name": "pr",
   "private": true,
   "dependencies": {
+    "@babel/core": "^7.14.6",
     "@popperjs/core": "^2.9.2",
     "@rails/actioncable": "^6.0.4",
     "@rails/activestorage": "^6.0.4",
@@ -24,7 +25,7 @@
     "popper.js": "^1.16.1",
     "turbolinks": "^5.2.0",
     "webpack-dev-server": "^3.11.2",
-    "yarn": "^1.22.4"
+    "yarn": "^1.22.10"
   },
   "version": "0.1.0",
   "devDependencies": {
@@ -34,7 +35,7 @@
     "babel-loader": "^8.2.2",
     "gulp-sass": "^4.1.0",
     "webpack": "^5.40.0",
-    "webpack-cli": "3.3.12"
+    "webpack-cli": "^4.7.2"
   },
   "description": "This README would normally document whatever steps are necessary to get the\r application up and running.",
   "main": ".pnp.js",
