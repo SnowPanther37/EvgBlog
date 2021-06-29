@@ -1,8 +1,12 @@
 <h1>Все наши посты</h1>
+<%= will_paginate @post %>
+<ul class="posts">
 <% @post.each do |post| %>
 <div class = 'alert alert-light'>
 <h3>Название: <%= post.title %></h3>
 <p>Описание: <%= post.body %></p>
 <%= link_to "Читать далее..", post_path(post), :class => 'btn btn-outline-primary' %>
 </div>
+</ul>
 <% end  %>
+<%= will_paginate @post %>

@@ -17,12 +17,16 @@
 </div>
 <hr>
 <h1>Все комментарии</h1>
+<%= will_paginate @posts %>
+<ul class="comment">
 <% @post.comments.each do |comment| %>
 <div class = 'alert alert-light'>
 <p><strong><%= comment.username %></strong>: <%=  comment.body %></p>
 <!-- <%= link_to "Редактировать", edit_post_comment_path(@post), :class => 'btn btn-warning' %> -->
 </div>
+</ul>
 <% end  %>
+<%= will_paginate %>
 <hr>
 <h2>Добавление комментария</h2>
 <%= form_with model: [@post, @post.comments.build] do |f| %>

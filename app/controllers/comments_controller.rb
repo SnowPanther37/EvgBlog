@@ -1,7 +1,11 @@
 class CommentsController < ApplicationController
     http_basic_authenticate_with name: "admin", password: "qwerty"
+    def show
+        @posts = Comment.paginate(page: params[:page], per_page: 3)
+    end
     def create
         @post = Post.find(params[:post_id])
+        
         @comment = @post.comments.create(comment_params)
         if @comment.save
             flash[notice] = "comment created"

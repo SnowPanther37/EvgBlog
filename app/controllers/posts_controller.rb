@@ -3,14 +3,16 @@ class PostsController < ApplicationController
     except: [:index, :show] 
 
     def index 
-        @post = Post.all
+        @post = Post.paginate(page: params[:page], per_page: 7)
     end
+  
     def new
         @post = Post.new
     end
 
     def show
         @post = Post.find(params[:id])
+        @posts = Comment.paginate(page: params[:page], per_page: 3)
     end
 
     def edit

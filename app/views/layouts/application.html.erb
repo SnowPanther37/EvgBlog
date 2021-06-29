@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
   <head>
     <title>EvgBlog</title>
     <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -45,12 +45,19 @@
     <nav class="container d-flex flex-column flex-md-row justify-content-between">
     <span class="py-2 d-none d-md-inline-block" ><%= link_to "Главная страница",
     home_path %></span>
+    <% if logged_in? %>
     <span class="py-2 d-none d-md-inline-block" ><%= link_to 'Добавление статьи',
     new_post_path %></span>
-    <span class="py-2 d-none d-md-inline-block" ><%= link_to 'Log in',
-    signup_path %></span>
-    <span class="py-2 d-none d-md-inline-block" ><%= link_to 'Sign up',
-    signup_path %></span>
+          <li><%= link_to "Пользователи",  users_path %></li>
+          <li><%= link_to "Профиль", current_user %></li>
+              <li><%= link_to "Настройки", edit_user_path(current_user) %></li>
+              <%= link_to "Выйти", logout_path, method: "delete" %>
+               <% else %>
+               <span class="py-2 d-none d-md-inline-block" ><%= link_to 'Войти',
+               login_path %></span>
+               <span class="py-2 d-none d-md-inline-block" ><%= link_to 'Зарегистрироваться',
+               signup_path %></span>
+    <% end %>
   </nav>
   </div>
 

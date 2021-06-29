@@ -1,0 +1,16 @@
+<style>
+.delUser{
+  display:inline-block;
+  margin-left: 5px;
+}
+</style>
+<li>
+  <%= gravatar_for user, size: 50 %>
+  <%= link_to user.name, user %>
+  <% if current_user.admin? && !current_user?(user) %>
+  <div class = 'delUser'>
+     <%= button_to "Удалить", user, method: :delete,
+                                  data: { confirm: "You sure?" },  :class =>  'btn btn-danger' %>
+  </div>
+  <% end %>
+</li>
